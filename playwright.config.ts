@@ -63,8 +63,7 @@ export default defineConfig<EyesFixture>({
     ],
       /* The following and other configuration parameters are documented at: https://applitools.com/tutorials/playwright/api/overview */
       apiKey: 'YOUR_API_KEY', // alternatively, set this via environment variable APPLITOOLS_API_KEY
-      
-      // serverUrl: 'https://eyes.applitools.com',
+      serverUrl: 'https://lvmheyesapi.applitools.com',
       // failTestsOnDiff: false,
       // appName: 'My App',
       // matchLevel: 'Strict',
